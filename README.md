@@ -1,4 +1,4 @@
-# score-keeper
+# Score Keeper
 
 <img src="example.png" />
 
