@@ -1,0 +1,64 @@
+@import 'color'
+@import 'normalize'
+
+.view-header
+  background: $view-header-bg
+  padding: 5px
+  font-weight: bold
+  margin-top: 10px
+  display: -webkit-flex
+  justify-content: space-between
+
+
+.app-container
+  margin: 0 auto
+  max-width: 350px
+  border: 3px solid $app-border
+  padding: 10px
+  box-sizing: border-box
+  font-size: 15px
+
+.score-list
+  overflow: auto
+  max-height: 200px
+
+
+.pt-label
+  margin: 0 5px
+  width: 30px
+  display: inline-block
+  text-align: right
+
+.player-label
+  margin: 0 5px
+  text-overflow: ellipsis
+  overflow: hidden
+  max-width: 175px
+
+.btn
+  border: 1px solid $btn-border
+  background: $btn-bg
+  border-radius: 0
+  cursor: pointer
+
+.alert
+  text-align: center
+  display: block
+  font-style: italic
+  font-size: 12px
+  margin: 5px
+
+.total-pt-container
+  text-align: right
+  padding: 0 5px
+  font-weight: bold
+
+.add-player-container
+  display: -webkit-flex
+  padding: 5px 5px 0 5px
+
+  *
+    flex: auto
+
+.player-label-container
+  display: flex
