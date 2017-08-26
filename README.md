@@ -1,5 +1,6 @@
 # score-keeper
 
+<img src="example.png" />
 
 Follow these steps to run the project<br>
 
