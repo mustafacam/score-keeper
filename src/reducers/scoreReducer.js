@@ -14,7 +14,7 @@ const addScore = (state, payload) => {
 
 
 const removeScore = (state, scoreIndex) => {
-    state.reverse().splice(scoreIndex, 1);
+    state.splice(state.length - scoreIndex -1, 1);
     return state;
 };
 
